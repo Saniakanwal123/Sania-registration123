@@ -1,0 +1,108 @@
+
+/* General page styling */
+body {
+    background-color: #eaf2f8;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and headings */
+header {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #17365d;
+    text-align: center;
+}
+
+/* Main content area */
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Round profile picture */
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #17365d;
+    margin: 15px auto;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Bordered form */
+form {
+    border: 2px solid #17365d;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: left;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+/* Input fields */
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Buttons and links */
+button,
+.button {
+    display: inline-block;
+    background-color: #17365d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover,
+.button:hover {
+    background-color: #315d8a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #555555;
+}
+
